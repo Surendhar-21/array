@@ -1,0 +1,61 @@
+#include<stdio.h>
+main()
+{
+ int *ptr[n][m][o],i,j,k,a[X][y][z],sum;
+ Printf ("enter no of elements");
+Scanf("%d%d%d",&n&m&o);
+Printf ("enter elements");
+For(i=0;i<n;i++)
+{
+    For(j=0;j<m;j++)
+     {    
+           For(k=0;k<o;k++)
+            { 
+                Scanf("%d",&a[i][j][k]);
+}
+
+    }
+         }
+  For(i=0;i<n;i++)
+{
+    For(j=0;j<m;j++)
+     {    
+           For(k=0;k<o;k++)
+      
+         
+            Ptr[i][j][k])=&a[i][j][k]);
+
+}
+    
+   }
+      }  
+ Printf ("entered elements");
+
+    For(i=0;i<n;i++)
+{
+    For(j=0;j<m;j++)
+     {    
+           For(k=0;k<o;k++)
+      
+         
+            Printf ("%d",*Ptr[i][j][k]);
+             
+
+}
+    
+   }
+
+
+         For(i=0;i<n;i++)
+    {
+    For(j=0;j<m;j++)
+     {    
+           For(k=0;k<o;k++)
+         {  
+if((i=j))
+            Sum= sum+*ptr[i][j][k];
+} 
+ }
+   } 
+     Printf("sum is %d",sum);
+       }
